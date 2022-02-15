@@ -12,6 +12,7 @@ const Page = () => {
 					<Heading as='h2' variant='page-title'>
 						Hossam Khalaf
 					</Heading>
+					<p>Software Developer (Front-End / ReactJs /NextJs) </p>
 				</Box>
 			</Box>
 		</Container>
