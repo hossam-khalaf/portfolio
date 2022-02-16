@@ -5,6 +5,8 @@ import {
 	Image,
 	useColorModeValue,
 } from '@chakra-ui/react'
+import Paragraph from '../components/Paragraph'
+import Section from '../components/Section'
 
 const Page = () => {
 	return (
@@ -44,6 +46,18 @@ const Page = () => {
 					/>
 				</Box>
 			</Box>
+			<Section delay={0.2}>
+				<Heading as='h3' variant='section-title'>
+					About Me
+				</Heading>
+				{/* To DO later */}
+				<Paragraph>
+					update later ||| Lorem, ipsum dolor sit amet consectetur adipisicing
+					elit. Possimus delectus repudiandae ea totam commodi tempora. Odio
+					itaque eos ab illo reprehenderit veritatis velit asperiores odit,
+					rerum vitae sapiente error quos.
+				</Paragraph>
+			</Section>
 		</Container>
 	)
 }
