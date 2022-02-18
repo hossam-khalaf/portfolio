@@ -50,12 +50,13 @@ const Page = () => {
 				<Heading as='h3' variant='section-title'>
 					About Me
 				</Heading>
-				{/* To DO later */}
+
 				<Paragraph>
-					update later ||| Lorem, ipsum dolor sit amet consectetur adipisicing
-					elit. Possimus delectus repudiandae ea totam commodi tempora. Odio
-					itaque eos ab illo reprehenderit veritatis velit asperiores odit,
-					rerum vitae sapiente error quos.
+					I have +4 years of experience as a Front-End Developer, experienced in
+					ReactJs, NextJs, Headless CMS, WordPress, and UI libraries, I&apos;m
+					always learning about new technologies, documentations addict 🚀, Love
+					working in teams to share experience, or Solo as a freelancer. Love
+					listening to old Arabic music & Jazz
 				</Paragraph>
 			</Section>
 		</Container>
