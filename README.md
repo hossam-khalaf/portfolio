@@ -6,5 +6,5 @@
 - [Chakra UI](https://chakra-ui.com/) 
 - [Framer Motion](https://www.framer.com/motion/) 
 - 
-## [Live](https://my-portfolio-hossam-khalaf.vercel.app/)
+## [Live](https://www.hossamkhalaf.tech/)
   
