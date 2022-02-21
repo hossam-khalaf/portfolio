@@ -22,6 +22,7 @@ import {
 	IoLogoLinkedin,
 	IoLogoInstagram,
 } from 'react-icons/io'
+import Footer from '../components/Footer'
 
 const Page = () => {
 	return (
@@ -36,7 +37,6 @@ const Page = () => {
 					align='center'>
 					Hello , I&apos;m a Front-End Developer Based in Dubai, UAE
 				</Box>
-
 				<Box display={{ md: 'flex' }}>
 					<Box flexGrow={1}>
 						<Heading as='h2' variant='page-title'>
@@ -134,6 +134,9 @@ const Page = () => {
 						</ListItem>
 					</List>
 				</Section>
+				<Box mt={20}>
+					<Footer />
+				</Box>
 			</Container>
 		</Article>
 	)
