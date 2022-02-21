@@ -4,14 +4,24 @@ import {
 	Button,
 	Container,
 	Heading,
+	Icon,
 	Image,
 	Link,
+	List,
+	ListItem,
 	useColorModeValue,
 } from '@chakra-ui/react'
 import Paragraph from '../components/Paragraph'
 import Section from '../components/Section'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Article from '../components/layouts/Article'
+
+import {
+	IoLogoTwitter,
+	IoLogoGithub,
+	IoLogoLinkedin,
+	IoLogoInstagram,
+} from 'react-icons/io'
 
 const Page = () => {
 	return (
@@ -72,6 +82,57 @@ const Page = () => {
 							</Button>
 						</NextLink>
 					</Box>
+				</Section>
+				<Section delay={0.3}>
+					<Heading as='h3' variant='section-title'>
+						On The Web
+					</Heading>
+					<List>
+						<ListItem>
+							<Link href='https://github.com/hossam-khalaf' target='_blank'>
+								<Button
+									variant='ghost'
+									colorScheme='teal'
+									leftIcon={<Icon as={IoLogoGithub} />}>
+									@hossam-khalaf
+								</Button>
+							</Link>
+						</ListItem>
+						<ListItem>
+							<Link
+								href='https://www.linkedin.com/in/hossam-khalaf-080875171/'
+								target='_blank'>
+								<Button
+									variant='ghost'
+									colorScheme='teal'
+									leftIcon={<Icon as={IoLogoLinkedin} />}>
+									@hossam-khalaf
+								</Button>
+							</Link>
+						</ListItem>
+						<ListItem>
+							{/* Todo => update yor social links */}
+							<Link href='https://github.com/hossam-khalaf' target='_blank'>
+								<Button
+									variant='ghost'
+									colorScheme='teal'
+									leftIcon={<Icon as={IoLogoTwitter} />}>
+									@dev_Hoss
+								</Button>
+							</Link>
+						</ListItem>
+						<ListItem>
+							{/* Todo => update yor social links */}
+							<Link href='https://github.com/hossam-khalaf' target='_blank'>
+								<Button
+									variant='ghost'
+									colorScheme='teal'
+									leftIcon={<Icon as={IoLogoInstagram} />}>
+									@dev_Hoss
+								</Button>
+							</Link>
+						</ListItem>
+					</List>
 				</Section>
 			</Container>
 		</Article>
