@@ -6,5 +6,5 @@
 - [Chakra UI](https://chakra-ui.com/) 
 - [Framer Motion](https://www.framer.com/motion/) 
 - 
-## [Live](https://www.hossamkhalaf.tech/)
+## [Live](https://www.hossamkhalaf.com/)
   
