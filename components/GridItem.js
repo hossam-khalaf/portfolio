@@ -60,9 +60,14 @@ export const ProjectGridItem = ({
 					flex={1}
 					fontSize={'sm'}
 					rounded={'sm'}
-					_focus={{
-						bg: 'teal.500',
-					}}>
+					bg={'teal.400'}
+				color={'white'}
+				_hover={{
+					bg: 'blue.500',
+				}}
+				_focus={{
+					bg: 'blue.500',
+				}}>
 					Live
 				</Button>
 			</NextLink>
