@@ -140,7 +140,7 @@ const Page = () => {
 									variant='ghost'
 									colorScheme='teal'
 									leftIcon={<Icon as={IoLogoWhatsapp} />}>
-									@dev_Hoss
+									@Whatsapp
 								</Button>
 							</Link>
 						</ListItem>
