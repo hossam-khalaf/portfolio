@@ -36,14 +36,14 @@ const Page = () => {
 					mt={2}
 					mb={6}
 					align='center'>
-					Hello , I&apos;m a Front-End Developer Based in Dubai, UAE
+					Hello , I&apos;m a Front-End Developer Based in Jakarta, Indonesia
 				</Box>
 				<Box display={{ md: 'flex' }}>
 					<Box flexGrow={1}>
 						<Heading as='h2' variant='page-title'>
 							Hossam Khalaf
 						</Heading>
-						<p>Software Developer (Front-End / ReactJs /NextJs) </p>
+						<p>Software Developer (Front-End / WordPress) </p>
 					</Box>
 					<Box
 						flexShrink={0}
@@ -69,11 +69,11 @@ const Page = () => {
 					</Heading>
 
 					<Paragraph>
-						I have +4 years of experience as a Front-End Developer, experienced
+						I have +5 years of experience as a Front-End Developer, experienced
 						in ReactJs, NextJs, Headless CMS, WordPress, and UI libraries,
 						I&apos;m always learning about new technologies, documentations
 						addict 🚀, Love working in teams to share experience, or Solo as a
-						freelancer. Love listening to old Arabic music & Jazz
+						freelancer. Love listening to old Arabic music & Jazz 🎺.
 					</Paragraph>
 					<Box align='center' my={4}>
 						<NextLink href='/projects'>
