@@ -21,6 +21,7 @@ import {
 	IoLogoGithub,
 	IoLogoLinkedin,
 	IoLogoInstagram,
+	IoLogoWhatsapp
 } from 'react-icons/io'
 import Footer from '../components/Footer'
 
@@ -112,7 +113,7 @@ const Page = () => {
 						</ListItem>
 						<ListItem>
 							{/* Todo => update yor social links */}
-							<Link href='https://github.com/hossam-khalaf' target='_blank'>
+							<Link href='https://twitter.com/dev_hoss' target='_blank'>
 								<Button
 									variant='ghost'
 									colorScheme='teal'
@@ -128,6 +129,17 @@ const Page = () => {
 									variant='ghost'
 									colorScheme='teal'
 									leftIcon={<Icon as={IoLogoInstagram} />}>
+									@dev_Hoss
+								</Button>
+							</Link>
+						</ListItem>
+<ListItem>
+							{/* Todo => update yor social links */}
+							<Link href='https://wa.me/6281399868314' target='_blank'>
+								<Button
+									variant='ghost'
+									colorScheme='teal'
+									leftIcon={<Icon as={IoLogoWhatsapp} />}>
 									@dev_Hoss
 								</Button>
 							</Link>
