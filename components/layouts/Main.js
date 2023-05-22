@@ -9,26 +9,27 @@ const Main = ({ children, router }) => {
 				<meta name='viewport' content='width=device-width, initial-scale=1.0' />
 				<title>Hossam Khalaf | Software Developer (Front-End / WordPress)</title>
 			</Head>
-<Head>
+			<Head>
 
-<meta name="description" content="Discover the exceptional work of Hossam Khalaf, a proficient Software Developer specializing in Front-End and WordPress. Dive into his skillful artistry as a WordPress designer and developer. Explore now!" />
-	<Head/>
-	<Head>
-	<meta name="keywords" content="Hossam Khalaf, Software Developer, Front-End, WordPress developer, WordPress designer" />
-		<Head/>
-		<Head>
-<meta name="author" content="Hossam Khalaf">
-	<Head/>
-	<Head>
-<meta property="og:title" content="Hossam Khalaf | Software Developer (Front-End / WordPress)" />
-	<Head/>
-	<Head>
-<meta property="og:description" content="Discover the exceptional work of Hossam Khalaf, a proficient Software Developer specializing in Front-End and WordPress. Dive into his skillful artistry as a WordPress designer and developer. Explore now!" />
-	<Head/>
-	<Head>
-<meta property="og:image" content="path_to_your_image" />
-	<Head/>
-<meta property="og:url" content="https://hossamkhalaf.com/" />
+				<meta name="description" content="Discover the exceptional work of Hossam Khalaf, a proficient Software Developer specializing in Front-End and WordPress. Dive into his skillful artistry as a WordPress designer and developer. Explore now!" />
+			</Head>
+			<Head>
+				<meta name="keywords" content="Hossam Khalaf, Software Developer, Front-End, WordPress developer, WordPress designer" />
+			</Head>
+			<Head>
+				<meta name="author" content="Hossam Khalaf">
+			</Head>
+			<Head>
+				<meta property="og:title" content="Hossam Khalaf | Software Developer (Front-End / WordPress)" />
+			</Head>
+			<Head>
+				<meta property="og:description" content="Discover the exceptional work of Hossam Khalaf, a proficient Software Developer specializing in Front-End and WordPress. Dive into his skillful artistry as a WordPress designer and developer. Explore now!" />
+			</Head>
+			<Head>
+				<meta property="og:image" content="path_to_your_image" />
+			</Head>
+			<Head>
+				<meta property="og:url" content="https://hossamkhalaf.com/" />
 
 			</Head>
 			<Navbar path={router.asPath} />
