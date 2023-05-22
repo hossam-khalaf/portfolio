@@ -24,7 +24,6 @@ const Projects = () => {
 							title='sanad'
 							thumbnail={sanad}
 							github='https://sanad-co.com/'>
-							Project Description in ......
 						</ProjectGridItem>
 					</Section>
 					<Section>
@@ -34,7 +33,6 @@ const Projects = () => {
 							title='newdirction'
 							thumbnail={newdirction}
 							github='https://newdirction.com/'>
-							Project Description in ......
 						</ProjectGridItem>
 					</Section>
 <Section>
@@ -44,7 +42,6 @@ const Projects = () => {
 							title='sarcoem'
 							thumbnail={sarcoem}
 							github='https://sarcoem.com/'>
-							Project Description in ......
 						</ProjectGridItem>
 					</Section>
 <Section>
@@ -54,7 +51,6 @@ const Projects = () => {
 							title='view-sa'
 							thumbnail={viewsa}
 							github='https://view-sa.hossamkhalaf.com/'>
-							Project Description in ......
 						</ProjectGridItem>
 					</Section>
 				</SimpleGrid>
