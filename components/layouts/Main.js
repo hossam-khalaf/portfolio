@@ -16,9 +16,7 @@ const Main = ({ children, router }) => {
 			<Head>
 				<meta name="keywords" content="Hossam Khalaf, Software Developer, Front-End, WordPress developer, WordPress designer" />
 			</Head>
-			<Head>
-				<meta name="author" content="Hossam Khalaf">
-			</Head>
+
 			<Head>
 				<meta property="og:title" content="Hossam Khalaf | Software Developer (Front-End / WordPress)" />
 			</Head>
