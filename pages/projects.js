@@ -6,7 +6,7 @@ import comingSoon from '../public/images/coming-soon.jpg'
 import sanad from '../public/images/sanad.webp'
 import newdirction from '../public/images/newdirction.webp'
 import sarcoem from '../public/images/sarcoem.webp'
-import view-sa from '../public/images/view-sa.webp'
+import viewsa from '../public/images/view-sa.webp'
 import Article from '../components/layouts/Article'
 
 const Projects = () => {
@@ -52,7 +52,7 @@ const Projects = () => {
 						<ProjectGridItem
 							id='1stproject'
 							title='view-sa'
-							thumbnail={view-sa}
+							thumbnail={viewsa}
 							github='https://view-sa.hossamkhalaf.com/'>
 							Project Description in ......
 						</ProjectGridItem>
