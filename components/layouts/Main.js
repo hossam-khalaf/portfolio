@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Box, Container } from '@chakra-ui/react'
 import Navbar from '../Navbar'
-
+import hosshhkh from '../public/images/hosshhkh.jpg'
 const Main = ({ children, router }) => {
 	return (
 		<Box as='main' pb={8}>
@@ -24,7 +24,7 @@ const Main = ({ children, router }) => {
 				<meta property="og:description" content="Discover the exceptional work of Hossam Khalaf, a proficient Software Developer specializing in Front-End and WordPress. Dive into his skillful artistry as a WordPress designer and developer. Explore now!" />
 			</Head>
 			<Head>
-				<meta property="og:image" content="path_to_your_image" />
+				<meta property="og:image" content={hosshhkh} />
 			</Head>
 			<Head>
 				<meta property="og:url" content="https://hossamkhalaf.com/" />
