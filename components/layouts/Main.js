@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Box, Container } from '@chakra-ui/react'
 import Navbar from '../Navbar'
-import hosshhkh from '../public/images/hosshhkh.jpg'
+import hosshhkh from '../../public/images/hosshhkh.jpg'
 const Main = ({ children, router }) => {
 	return (
 		<Box as='main' pb={8}>
