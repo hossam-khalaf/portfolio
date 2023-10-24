@@ -38,7 +38,9 @@ export const ProjectGridItem = ({
 }) => (
 	<Box w='100%' align='center'>
 		{/* fix later// direct to live or github!! */}
-		<NextLink href={`/projects/${id}`}>
+		<NextLink
+	// href={`/projects/${id}`}
+>
 			<LinkBox cursor='pointer'>
 				<Image
 					src={thumbnail}
