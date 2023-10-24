@@ -48,9 +48,9 @@ const Projects = () => {
 						{/* edit with Your projects Lsater */}
 						<ProjectGridItem
 							id='1stproject'
-							title='view-sa'
+							title='view'
 							thumbnail={viewsa}
-							github='https://view-sa.hossamkhalaf.com/'>
+							github='https://view.sa/'>
 						</ProjectGridItem>
 					</Section>
 				</SimpleGrid>
